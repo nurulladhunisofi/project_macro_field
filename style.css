@@ -8,10 +8,24 @@ body{
 .navbar a{
     color: white;
 }
-.text-biru{
+.teks-biru{
     color: #072243;
+}
+.bg-biru{
+    background-color: #072243;
+}
+.teks-abu{
+    color: #746A6A;
 }
 .selamat{
     font-size: 20pt;
     font-weight: 200;
+}
+.btn-login{
+    background: #072243;
+    color: white;
+    width: 100%;
+}
+.playstore{
+    margin: auto;
 }
