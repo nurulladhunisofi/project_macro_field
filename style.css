@@ -26,6 +26,21 @@ body{
     color: white;
     width: 100%;
 }
-.playstore{
-    margin: auto;
+.logo-regis{
+    background-color: #F6F7F9;
+    border: 2px solid #072243;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+.logo-regis i{
+    font-size: 40px;
+    color: #072243;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.kartu-regis{
+    padding-top: 200px;
 }
