@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venue</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">field.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li><a class="dropdown-item text-dark" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h2>Booking Lapangan Online Terbaik</h2>
+      <button
+        class="btn btn-rounded"
+        style="background-color: #072243; color: white"
+      >
+        Daftarkan Venue <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <div class="search">
+      <style>
+        .custom-input {
+          border: 2px solid #072243;
+          background-color: #f5f6f8;
+          border-radius: 10px;
+        }
+      </style>
+      <div class="style-search">
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Cari Nama Venue"
+          />
+        </div>
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Lokasi"
+          />
+        </div>
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Jenis Olahraga"
+          />
+        </div>
+        <div class="col-md-3 p-3">
+          <button
+            class="btn"
+            style="background-color: #072243; color: white; border-radius: 10px"
+          >
+            Temukan <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <p class="col-sm-6">Menampilkan : 6/100 Lapangan yang tersedia</p>
+        <div class="col-sm-6 text-end">
+          <div class="form-group">
+            <label for="sorting">Urutkan berdasarkan:</label>
+            <select class="custom-select" style="border: none" id="sorting">
+              <option value="option1">Harga Termurah</option>
+              <option value="option2">Pilihan 2</option>
+              <option value="option3">Pilihan 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="content mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue1.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">GOR Gajah Duduk</h4>
+                <p>Kota Medan, Jln Wiliem Iskandar Muda</p>
+                <p></p>
+                <p>Mulai dari<br />45k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue2.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">Situroma GOR</h4>
+                <p>Kota Semarang, Jln Wahid Hasim no 56</p>
+                <p></p>
+                <p>Mulai dari<br />50k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue3.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">GOR Amungrogo</h4>
+                <p>Semaki, Umbulharjo, Yogyakarta</p>
+                <p></p>
+                <p>Mulai dari<br />50k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue4.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">GOR Glora Raya</h4>
+                <p>Kota Bekasi, Jln Manuk Wari no. 7</p>
+                <p></p>
+                <p>Mulai dari<br />60k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue5.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">Hapsra GOR</h4>
+                <p>Jln Pemuda no.117, Jember Timur</p>
+                <p></p>
+                <p>Mulai dari<br />70k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/venue6.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h5 class="card-title">Lapangan Basket</h5>
+                <h4 class="card-text">Home Sweet GOR</h4>
+                <p>monas, Jakarta Pusat</p>
+                <p></p>
+                <p>Mulai dari<br />80k/Sesi</p>
+                <p class="text-end">04 September 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true"
+                    ><i class="fas fa-angle-left"></i
+                  ></span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item"><a class="page-link" href="#">7</a></li>
+              <li class="page-item"><a class="page-link" href="#">8</a></li>
+              <li class="page-item"><a class="page-link" href="#">9</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true"
+                    ><i class="fas fa-angle-right"></i
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
