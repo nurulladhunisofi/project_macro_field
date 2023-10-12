@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aktivitas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">field.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li><a class="dropdown-item text-dark" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero">
+      <h2>Cari Event Olahraga Menarik</h2>
+      <button
+        class="btn btn-rounded"
+        style="background-color: #072243; color: white"
+      >
+        Tambahkan Event <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <!-- Search -->
+    <div class="search">
+      <style>
+        .custom-input {
+          border: 2px solid #072243;
+          background-color: #f5f6f8;
+          border-radius: 10px;
+        }
+      </style>
+      <div class="style-search">
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Pilih Aktivitas"
+          />
+        </div>
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Pilih Lokasi"
+          />
+        </div>
+        <div class="col-md-4 p-3">
+          <input
+            type="text"
+            class="form-control custom-input"
+            placeholder="Cabang Olahraga"
+          />
+        </div>
+        <div class="col-md-3 p-3">
+          <button
+            class="btn"
+            style="background-color: #072243; color: white; border-radius: 10px"
+          >
+            Temukan <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Event Mabar-->
+      <div style="display: flex; align-items: center">
+        <h2>Event main bareng</h2>
+        <hr style="flex: 1; margin-left: 10px" />
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Selasa, 3 Okt 2023 - 20:00</p>
+                <h4>Mabar Badminton</h4>
+                <p><i class="fas fa-star"></i> Badminton</p>
+                <p><i class="fas fa-heart"></i> Gor Sentosa, Kota Medan</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp.25.000
+                </p>
+                <hr />
+                <p>penyelenggara: Puma Badmin</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Jumat, 6 Okt 2023 - 17:00</p>
+                <h4>Fun Futsal</h4>
+                <p><i class="fas fa-star"></i> Futsal</p>
+                <p>
+                  <i class="fas fa-heart"></i> Lapangan Juara, Kota Semarang
+                </p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp.35.000
+                </p>
+                <hr />
+                <p>penyelenggara: Let's Play Futsal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Sabtu, 7 Okt 2023 - 10:00</p>
+                <h4>Basket Yuk!</h4>
+                <p><i class="fas fa-star"></i> Basket</p>
+                <p><i class="fas fa-heart"></i> Gor Analisa, Kota Yogyakarta</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp.50.000
+                </p>
+                <hr />
+                <p>penyelenggara : Basket Jaya Merah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Rabu, 11 Okt 2023 - 20:00</p>
+                <h4>Futsal Biar Sehat</h4>
+                <p><i class="fas fa-star"></i> Futsal</p>
+                <p>
+                  <i class="fas fa-heart"></i> Lapangan Singosari, Jakarta Timur
+                </p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 40.000
+                </p>
+                <hr />
+                <p>penyelenggara: Go Futsal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Sabtu, 14 Okt 2023 - 09:45</p>
+                <h4>Badminton Bareng Kita</h4>
+                <p><i class="fas fa-star"></i> Badminton</p>
+                <p><i class="fas fa-heart"></i> Gor Garuda, Jakarta Selatan</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 70.000
+                </p>
+                <hr />
+                <p>penyelenggara: Kita Badminton</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p style="color: blue">Sabtu, 15 Okt 2023 - 13:30</p>
+                <h4>Mabar Badminton</h4>
+                <p><i class="fas fa-star"></i> Badminton</p>
+                <p><i class="fas fa-heart"></i> Gor Biawu, Kota Malang</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 70.000
+                </p>
+                <hr />
+                <p>penyelenggara: Badmin Srigala</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-5 mb-4" style="justify-content: center; display: flex"
+        >Tampilkan Lebih banyak <i class="fas fa-arrow-down mt-1"></i
+      ></a>
+      <!-- Event Sparring -->
+      <div class="mt-5" style="display: flex; align-items: center">
+        <h2>Event Sparring</h2>
+        <hr style="flex: 1; margin-left: 5px" />
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <img src="img/sparring1.png" class="col-sm-3" />
+                  <p class="col-sm-9">Futsal<br />Gracias Team</p>
+                </div>
+                <p></p>
+                <p><i class="fas fa-star"></i> 3 Oktober 2023 - 14:00</p>
+                <p><i class="fas fa-heart"></i> Lapangan Jujur, Kota Medan</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 25.000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <img src="img/sparring2.png" class="col-sm-3" />
+                  <p class="col-sm-9">Basket<br />Bonjovi Basket Club</p>
+                </div>
+                <p></p>
+                <p><i class="fas fa-star"></i> 10 Oktober 2023 - 10:00</p>
+                <p><i class="fas fa-heart"></i> Gor Superia, Kota Surabaya</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 50.000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <img src="img/sparring3.png" class="col-sm-3" />
+                  <p class="col-sm-9">Badminton<br />Chill Badminton</p>
+                </div>
+                <p></p>
+                <p><i class="fas fa-star"></i> 11 Oktober 2023 - 15:00</p>
+                <p><i class="fas fa-heart"></i> Gor Serupun, Kota Malang</p>
+                <p>
+                  <i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 35.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-5 mb-4" style="justify-content: center; display: flex"
+        >Tampilkan Lebih banyak <i class="fas fa-arrow-down mt-1"></i
+      ></a>
+      <!-- Event Tournament-->
+      <div class="mt-5" style="display: flex; align-items: center">
+        <h2>Event Tournament</h2>
+        <hr style="flex: 1; margin-left: 5px" />
+      </div>
+      <div class="content mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/tour1.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h4 class="card-text">Tournament Weekly</h4>
+                <p>3 Oktober 2023 - 19:00</p>
+                <p>Futsal</p>
+                <p>Lapangan Sentosa, Kota Surabaya</p>
+                <hr />
+                <p>penyelenggara : Gus Futsal Team</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/tour2.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h4 class="card-text">Tournament Monthly</h4>
+                <p>7 Oktober 2023 - 08:30</p>
+                <p>Basket</p>
+                <p>Gor Sejahtera, Kediri</p>
+                <hr />
+                <p>penyelenggara : Great Basket Team</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/tour3.png" class="card-img-top" alt="Card Image" />
+              <div class="card-body">
+                <h4 class="card-text">Tournament Weekly</h4>
+                <p>11 Oktober 2023 - 16:00</p>
+                <p>Badminton</p>
+                <p>Gor Bergema, Kota Padang</p>
+                <hr />
+                <p>penyelenggara : Badminton Fun</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-5 mb-4" style="justify-content: center; display: flex"
+        >Tampilkan Lebih banyak <i class="fas fa-arrow-down mt-1"></i
+      ></a>
+    </div>
+    <!-- Footer-->
+    <div class="footer">
+      <div class="container">
+        <div
+          class="row align-items-center text-light"
+          style="min-height: 100px"
+        >
+          <div class="row justify-content-between">
+            <div class="col-md-5">
+              <table>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-copyright"></i>
+                  </td>
+                  <td>
+                    <small class="me-4">2023 Field All Right Reserved</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Privacy policy</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Legal</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-md-4">
+              <table class="m-auto">
+                <tr>
+                  <td>
+                    <small class="me-3">support@field.com</small>
+                  </td>
+                  <td>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

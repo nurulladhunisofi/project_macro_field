@@ -114,3 +114,28 @@ body{
     border: none;
     color: #072243;
   }
+/* aktivitas */
+
+.hr-lines:after {
+  content: " ";
+  height: 2px;
+  width: 800px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 76%;
+  right: 0;
+  left: 30%;
+}
+
+.hr-liness:after {
+  content: " ";
+  height: 2px;
+  width: 800px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 143%;
+  right: 0;
+  left: 30%;
+}
