@@ -139,3 +139,29 @@ body{
   right: 0;
   left: 30%;
 }
+/* beranda */
+.form-cari-beranda{
+    width: 100%;
+    background-image: url("img/beranda\ 1.png");
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-testimoni-beranda{
+    width: 100%;
+    background-image: url("img/beranda\ 3.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
