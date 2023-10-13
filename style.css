@@ -145,7 +145,7 @@ body{
     background-image: url("img/beranda\ 1.png");
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    min-height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
