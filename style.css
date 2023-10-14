@@ -8,6 +8,9 @@ body{
 .navbar a{
     color: white;
 }
+.nav-link:focus{
+  text-decoration: 2px underline;
+}
 .teks-biru{
     color: #072243;
 }
