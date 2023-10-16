@@ -167,3 +167,10 @@ body{
     align-items: center;
     text-align: center;
 }
+/* detail venue */
+.btn-det-venue{
+  width: 100%;
+  background-color: #072243;
+  color: white;
+  border-radius: 5px;
+}
