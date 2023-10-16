@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kompetisi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">field.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li><a class="dropdown-item text-dark" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero-event">
+      <button
+        class="btn btn-rounded"
+        style="background-color: #072243; color: white"
+      >
+        Kompetisi Futsal <i class="fas fa-arrow-right"></i>
+      </button>
+      <h2 class="mt-3 fw-bold">Tournament Weekly</h2>
+      <p>Peserta 2 / 14</p>
+    </div>
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 mt-5">
+          <h4 class="fw-semibold">Tentang Kompetisi</h4>
+          <p class="mb-5">
+            Tournament Weekly kembali diadakan dengan hadiah<br />
+            uang tunai Rp.2.000.000. Segera daftar dan <br />
+            menangkan Tournament Weekly.
+          </p>
+          <h4 class="fw-semibold">Lokasi</h4>
+          <p class="mb-5">
+            Jl. Raya Kedung Baruk 160. Wonorejo, Rungkut, Surabaya
+          </p>
+          <h4 class="fw-semibold">Petunjuk Jalan</h4>
+          <img src="img/maps-kompetisi.png" class="col-sm-10 mb-5" />
+        </div>
+        <div class="col-sm-5 mt-5">
+          <div class="row justify-content-end">
+            <div
+              class="card"
+              style="width: 27rem; height: 33rem; background-color: #314763"
+            >
+              <div class="card-body" style="color: white">
+                <p class="fw-bold mt-5">
+                  RP. 135.000 <span class="fw-light">/Club</span>
+                </p>
+                <p>slot terbatas !</p>
+                <div class="d-grid gap-1 col-6 mx-auto">
+                  <button
+                    class="btn btn-rounded mt-3 mb-3"
+                    style="background-color: white; color: #072243"
+                  >
+                    Daftar Tournament
+                  </button>
+                </div>
+                <p>
+                  <i class="fas fa-star"></i> Event ini hanya menerima metode
+                  <br />
+                  pembayaran tunai !
+                </p>
+                <hr />
+                <p>
+                  <i class="fas fa-heart"></i> Waktu & Tanggal<br />
+                  selasa, 3 oktober 2023 14:00
+                </p>
+                <p>
+                  <i class="fas fa-check"></i> Lapangan <br />Jl. Raya Kedung
+                  Baruk 160. Wonorejo, Rungkut, Surabaya
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5" style="display: flex; align-items: center">
+        <h4 class="fw-semibold">Rekomendasi Kompetisi</h4>
+        <hr style="flex: 1; margin-left: 5px" />
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/tour1.png" class="card-img-top" alt="Card Image" />
+            <div class="card-body">
+              <h4 class="card-text">Tournament Weekly</h4>
+              <p>3 Oktober 2023 - 19:00</p>
+              <p>Futsal</p>
+              <p>Lapangan Sentosa, Kota Surabaya</p>
+              <hr />
+              <p>penyelenggara : Gus Futsal Team</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/tour2.png" class="card-img-top" alt="Card Image" />
+            <div class="card-body">
+              <h4 class="card-text">Tournament Monthly</h4>
+              <p>7 Oktober 2023 - 08:30</p>
+              <p>Basket</p>
+              <p>Gor Sejahtera, Kediri</p>
+              <hr />
+              <p>penyelenggara : Great Basket Team</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/tour3.png" class="card-img-top" alt="Card Image" />
+            <div class="card-body">
+              <h4 class="card-text">Tournament Weekly</h4>
+              <p>11 Oktober 2023 - 16:00</p>
+              <p>Badminton</p>
+              <p>Gor Bergema, Kota Padang</p>
+              <hr />
+              <p>penyelenggara : Badminton Fun</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-5 mb-4" style="justify-content: center; display: flex"
+        >Tampilkan Lebih banyak <i class="fas fa-arrow-down mt-1"></i
+      ></a>
+    </div>
+    <!-- Footer-->
+    <div class="footer">
+      <div class="container">
+        <div
+          class="row align-items-center text-light"
+          style="min-height: 100px"
+        >
+          <div class="row justify-content-between">
+            <div class="col-md-5">
+              <table>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-copyright"></i>
+                  </td>
+                  <td>
+                    <small class="me-4">2023 Field All Right Reserved</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Privacy policy</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Legal</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-md-4">
+              <table class="m-auto">
+                <tr>
+                  <td>
+                    <small class="me-3">support@field.com</small>
+                  </td>
+                  <td>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
