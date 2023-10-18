@@ -1,108 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Field.com | Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">field.com</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="beranda.html">Beranda</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="beranda.html" style="padding-left: 50px"
+          >field.com</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="beranda.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="venue.html"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="aktivitas.html"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="blog.html"
+                style="text-decoration: 1px underline white"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link ms-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto my-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item text-dark" href="profile.html"
+                    >Profile</a
+                  >
                 </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="venue.html">Venue</a>
+                <li>
+                  <a class="dropdown-item text-dark" href="index.html"
+                    >Logout</a
+                  >
                 </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="aktivitas.html">Aktivitas</a>
-                </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="blog.html" style="text-decoration: 2px underline white;">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <table class="ms-auto my-auto">
-                      <tr>
-                        <td align="center"><i class="fa-solid fa-user-large"></i></td>
-                      </tr>
-                      <tr>
-                        <td align="center"><small>Mawar</small></td>
-                      </tr>
-                    </table>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
-                    <li><a class="dropdown-item text-dark" href="profile.html">Profile</a></li>
-                    <li><a class="dropdown-item text-dark" href="index.html">Logout</a></li>
-                  </ul>
-                </li>
-            </ul>
-          </div>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    <div class="card d-flex justify-content-center align-items-center"> 
-        <img src="img/1116002_5676 1.png" class="img-fluid"> 
-        <div class="card-img-overlay col-md-8 m-auto">
-            <h4 class="teks-biru text-center">Temukan Artikel Serta Tips Seputar Olahraga</h4>
-            <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                <span class="input-group-text border-0 bg-primary text-light" id="search-addon">
-                  <i class="fas fa-search"></i>
-                </span>
-            </div>
-        </div>
+    <!-- Hero -->
+    <div class="hero">
+      <h1>Temukan Artikel Serta Tips Seputar Olahraga</h1>
+      <input
+        style="
+          border: 1px solid #072243;
+          background-color: #f5f6f8;
+          border-radius: 10px;
+          width: 650px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        "
+        type="text"
+        class="form-control custom-input"
+        placeholder="Cari Seputar Olahraga"
+      />
     </div>
+    <!-- Content -->
     <div class="container">
       <div class="content mt-5">
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="img/blog1.png" class="card-img-top" alt="Card Image" />
-              <div class="card-body">
-                <h5 class="card-title teks-biru">Basket</h5>
-                <h4 class="card-text">Preview Spanyol VS Kanada FIBA WC 23</h4>
-                <p class="text-secondary">Preview Spanyol VS Kanada FIBA WC 23</p>
-                <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>Aini</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">04 September 2023</p>
-                    </td>
-                  </tr>
-                </table>
+            <a href="detail-blog.html" style="text-decoration: none">
+              <div class="card">
+                <img
+                  src="img/blog1.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">BASKET</h5>
+                  <h3 class="card-text">
+                    Preview Spanyol VS Kanada FIBA WC 23
+                  </h3>
+                  <p>Preview Spanyol VS Kanada FIBA WC 23 baca</p>
+                  <p></p>
+                  <div class="row">
+                    <p class="col-sm-4">Oleh Aini</p>
+                    <p class="col-sm-8 text-end">04 September 2023</p>
+                  </div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-4 mb-4">
             <div class="card">
               <img src="img/blog2.png" class="card-img-top" alt="Card Image" />
               <div class="card-body">
-                <h5 class="card-title teks-biru">Sepak Bola</h5>
-                <h4 class="card-text">Arema Malang Menang Atas PSS Sleman</h4>
-                <p class="text-secondary">Arema Malang Menang Atas PSS Sleman</p>
+                <h5 class="card-title">SEPAK BOLA</h5>
+                <h3 class="card-text">Arema Malang Menang Vs Sleman</h3>
+                <p>Arema Malang Menang Atas PSS Sleman</p>
                 <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>Yustin</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">04 September 2023</p>
-                    </td>
-                  </tr>
-                </table>
+                <div class="row">
+                  <p class="col-sm-4">Oleh Yustin</p>
+                  <p class="col-sm-8 text-end">04 September 2023</p>
+                </div>
               </div>
             </div>
           </div>
@@ -110,20 +166,14 @@
             <div class="card">
               <img src="img/blog3.png" class="card-img-top" alt="Card Image" />
               <div class="card-body">
-                <h5 class="card-title teks-biru">Futsal</h5>
-                <h4 class="card-text">Arema Malang Menang Atas PSS Sleman</h4>
-                <p class="text-secondary">Arema Malang Menang Atas PSS Sleman</p>
+                <h5 class="card-title">FUTSAL</h5>
+                <h3 class="card-text">Supersoccer Euro Futsal Championship</h3>
+                <p>Digelas Di Surabaya! Dijamin Banyak Keseruan</p>
                 <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>Amalia</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">30 Agustus 2023</p>
-                    </td>
-                  </tr>
-                </table>
+                <div class="row">
+                  <p class="col-sm-5">Oleh Amalia</p>
+                  <p class="col-sm-7 text-end">22 September 2023</p>
+                </div>
               </div>
             </div>
           </div>
@@ -131,20 +181,17 @@
             <div class="card">
               <img src="img/blog4.png" class="card-img-top" alt="Card Image" />
               <div class="card-body">
-                <h5 class="card-title teks-biru">Bulu Tangkis</h5>
-                <h4 class="card-text">Apriyani/Fadia Raih Perak di Kejuaraan Dunia</h4>
-                <p class="text-secondary">Bukan ganda putra, bukan pula tunggal putra, melainkan ganda putri...</p>
+                <h5 class="card-title">BULU TANGKIS</h5>
+                <h3 class="card-text">Ganda Putri Indonesia Raih Perak</h3>
+                <p>
+                  Bukan ganda putra, bukan pula tunggal putra, melainkan ganda
+                  putri...
+                </p>
                 <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>M.Susilo</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">29 Agustus 2023</p>
-                    </td>
-                  </tr>
-                </table>
+                <div class="row">
+                  <p class="col-sm-5">Oleh M. Susilo</p>
+                  <p class="col-sm-7 text-end">29 Agustus 2023</p>
+                </div>
               </div>
             </div>
           </div>
@@ -152,20 +199,17 @@
             <div class="card">
               <img src="img/blog5.png" class="card-img-top" alt="Card Image" />
               <div class="card-body">
-                <h5 class="card-title teks-biru">Futsal</h5>
-                <h4 class="card-text">Unggul FC Canangkan pada Liga Futsal </h4>
-                <p class="text-secondary">Unggul FC tak mau terus terjebak hasil buruk dalam perjalanan...</p>
+                <h5 class="card-title">FUTSAL</h5>
+                <h3 class="card-text">Unggul FC Canangkan Futsal</h3>
+                <p>
+                  Unggul FC tak mau terus terjebak hasil buruk dalam
+                  perjalanan...
+                </p>
                 <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>Serafin</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">29 Agustus 2023</p>
-                    </td>
-                  </tr>
-                </table>
+                <div class="row">
+                  <p class="col-sm-5">Oleh Serafin</p>
+                  <p class="col-sm-7 text-end">07 Maret 2023</p>
+                </div>
               </div>
             </div>
           </div>
@@ -173,28 +217,25 @@
             <div class="card">
               <img src="img/blog6.png" class="card-img-top" alt="Card Image" />
               <div class="card-body">
-                <h5 class="card-title teks-biru">Sepak Bola</h5>
-                <h4 class="card-text">3 Alasan Suwon FC Tertarik Rekrut Arhan</h4>
-                <p class="text-secondary">Klub K-League 1, Suwon FC, dilaporkan tengah melakukan negosiasi...</p>
+                <h5 class="card-title">SEPAK BOLA</h5>
+                <h3 class="card-text">
+                  3 Alasan Suwon FC Tertarik Rekrut Arhan
+                </h3>
+                <p>
+                  Klub K-League 1, Suwon FC, dilaporkan tengah melakukan
+                  negosiasi...
+                </p>
                 <p></p>
-                <table width="100%">
-                  <tr>
-                    <td>
-                      <p><small class="text-secondary">Oleh</small> <b>Asad</b></p>
-                    </td>
-                    <td align="right">
-                      <p class="text-secondary">24 Agustus 2023</p>
-                    </td>
-                  </tr>
-                </table>
+                <div class="row">
+                  <p class="col-sm-4">Oleh Asad</p>
+                  <p class="col-sm-8 text-end">26 September 2023</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- pagination -->
     <div class="pagination mt-5">
       <div class="row">
         <div class="col-md-12">
@@ -228,16 +269,22 @@
         </div>
       </div>
     </div>
-    <!-- footer -->
+    <!-- Footer -->
     <div class="footer">
       <div class="container">
-        <div class="row align-items-center text-light" style="min-height: 100px">
+        <div
+          class="row align-items-center text-light"
+          style="min-height: 100px"
+        >
           <div class="row justify-content-between">
             <div class="col-md-5">
               <table>
                 <tr>
                   <td>
-                    <small class="me-4"><i class="fa-regular fa-copyright"></i>2023 Field All Right Reserved</small>
+                    <i class="fa-regular fa-copyright"></i>
+                  </td>
+                  <td>
+                    <small class="me-4">2023 Field All Right Reserved</small>
                   </td>
                   <td>
                     <small class="me-4">Privacy policy</small>
@@ -246,7 +293,7 @@
                     <small class="me-4">Legal</small>
                   </td>
                 </tr>
-              </table> 
+              </table>
             </div>
             <div class="col-md-4">
               <table class="m-auto">
@@ -267,5 +314,5 @@
       </div>
     </div>
     <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

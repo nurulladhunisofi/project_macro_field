@@ -1,64 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Field.com | Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">field.com</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="beranda.html">field.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     </nav>
+    <!-- Form -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 mb-4">
           <h2 class="teks-biru text-center mt-5 fw-bold">Halo Mawar</h2>
           <div class="col-md-3 m-auto mt-3">
-            <img src="img/profil.png" class="mx-auto d-block" alt="">
+            <img src="img/profil.png" class="mx-auto d-block" alt="" />
           </div>
           <div class="col-md-10 m-auto">
             <form action="">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nama</label>
-                    <input type="text" value="Mawar" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="Email" value="mawar@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Tanggal Lahir</label>
-                    <input type="date" class="form-control" value="02/05/2000" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Alamat</label>
-                    <input type="text" class="form-control" value="Jalan mawar" placeholder="Alamat" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nomor Handphone</label>
-                    <input type="text" class="form-control" value="089200000000" placeholder="No.Handphone" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                </div>
-                <div class="col-md-6 m-auto">
-                    <a class="btn btn-lg btn-login btn-outline-secondary" href="index.html">Simpan Perubahan</a>
-                </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  value="Mawar"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  value="mawar@gmail.com"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Tanggal Lahir</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  value="02/05/2000"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Alamat</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  value="Jalan mawar"
+                  placeholder="Alamat"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Nomor Handphone</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  value="089200000000"
+                  placeholder="No.Handphone"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+              </div>
+              <div class="col-md-6 m-auto">
+                <a
+                  class="btn btn-lg btn-login btn-outline-secondary"
+                  href="index.html"
+                  >Simpan Perubahan</a
+                >
+              </div>
             </form>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="d-flex justify-content-center align-items-center"> 
-            <img src="img/kiri.png" class="img-fluid" style="width: 100%;"> 
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="img/kiri.png" class="img-fluid" style="width: 100%" />
           </div>
         </div>
       </div>
     </div>
     <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>

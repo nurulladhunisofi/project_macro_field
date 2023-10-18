@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Venue</title>
+    <title>Field.com | Venue</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -15,56 +15,106 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">field.com</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="beranda.html" style="padding-left: 50px"
+          >field.com</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item ms-auto my-auto">
-                <a class="nav-link active text-light fw-medium" aria-current="page" href="beranda.html">Beranda</a>
-              </li>
-              <li class="nav-item ms-auto my-auto">
-                <a class="nav-link active text-light fw-medium" aria-current="page" href="#" style="text-decoration: 2px underline white;">Venue</a>
-              </li>
-              <li class="nav-item ms-auto my-auto">
-                <a class="nav-link active text-light fw-medium" aria-current="page" href="aktivitas.html">Aktivitas</a>
-              </li>
-              <li class="nav-item ms-auto my-auto">
-                <a class="nav-link active text-light fw-medium" aria-current="page" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <table class="ms-auto my-auto">
-                    <tr>
-                      <td align="center"><i class="fa-solid fa-user-large"></i></td>
-                    </tr>
-                    <tr>
-                      <td align="center"><small>Mawar</small></td>
-                    </tr>
-                  </table>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
-                  <li><a class="dropdown-item text-dark" href="profile.html">Profile</a></li>
-                  <li><a class="dropdown-item text-dark" href="index.html">Logout</a></li>
-                </ul>
-              </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="beranda.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="venue.html"
+                style="text-decoration: 1px underline white"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="aktivitas.html"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link ms-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto my-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item text-dark" href="profile.html"
+                    >Profile</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-dark" href="index.html"
+                    >Logout</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Hero -->
     <div class="hero">
-      <h2>Booking Lapangan Online Terbaik</h2>
+      <h1 class="mb-3">Booking Lapangan Online Terbaik</h1>
       <button
-        class="btn btn-rounded"
-        style="background-color: #072243; color: white"
+        class="btn btn-rounded p-3"
+        style="background-color: #072243; color: white; border-radius: 10px"
       >
         Daftarkan Venue <i class="fas fa-arrow-right"></i>
       </button>
     </div>
-    <div class="search container">
+    <!-- Search -->
+    <div class="search">
       <style>
         .custom-input {
           border: 2px solid #072243;
@@ -95,15 +145,16 @@
           />
         </div>
         <div class="col-md-3 p-3">
-          <button
-            class="btn w-100"
+          <a
+            class="btn p-3 px-5"
             style="background-color: #072243; color: white; border-radius: 10px"
           >
             Temukan <i class="fas fa-arrow-right"></i>
-          </button>
+          </a>
         </div>
       </div>
     </div>
+    <!-- Content -->
     <div class="container">
       <div class="row">
         <p class="col-sm-6">Menampilkan : 6/100 Lapangan yang tersedia</p>
@@ -112,8 +163,8 @@
             <label for="sorting">Urutkan berdasarkan:</label>
             <select class="custom-select" style="border: none" id="sorting">
               <option value="option1">Harga Termurah</option>
-              <option value="option2">Pilihan 2</option>
-              <option value="option3">Pilihan 3</option>
+              <option value="option2">Kualitas Terbaik</option>
+              <option value="option3">Jarak Terdekat</option>
             </select>
           </div>
         </div>
@@ -121,17 +172,23 @@
       <div class="content mt-5">
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="img/venue1.png" class="card-img-top" alt="Card Image" />
-              <div class="card-body">
-                <h5 class="card-title">Lapangan Basket</h5>
-                <h4 class="card-text">GOR Gajah Duduk</h4>
-                <p>Kota Medan, Jln Wiliem Iskandar Muda</p>
-                <p></p>
-                <p>Mulai dari<br />45k/Sesi</p>
-                <p class="text-end">04 September 2023</p>
+            <a href="detail-venue.html" style="text-decoration: none">
+              <div class="card">
+                <img
+                  src="img/venue1.png"
+                  class="card-img-top"
+                  alt="Card Image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lapangan Basket</h5>
+                  <h4 class="card-text">GOR Gajah Duduk</h4>
+                  <p>Kota Medan, Jln Wiliem Iskandar Muda</p>
+                  <p></p>
+                  <p>Mulai dari<br />45k/Sesi</p>
+                  <p class="text-end">04 September 2023</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-4 mb-4">
             <div class="card">
@@ -231,6 +288,50 @@
               </li>
             </ul>
           </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <div class="footer">
+      <div class="container">
+        <div
+          class="row align-items-center text-light"
+          style="min-height: 100px"
+        >
+          <div class="row justify-content-between">
+            <div class="col-md-5">
+              <table>
+                <tr>
+                  <td>
+                    <i class="fa-regular fa-copyright"></i>
+                  </td>
+                  <td>
+                    <small class="me-4">2023 Field All Right Reserved</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Privacy policy</small>
+                  </td>
+                  <td>
+                    <small class="me-4">Legal</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-md-4">
+              <table class="m-auto">
+                <tr>
+                  <td>
+                    <small class="me-3">support@field.com</small>
+                  </td>
+                  <td>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </div>

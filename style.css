@@ -1,126 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-}
-.navbar{
-    background-color: #072243;
-}
-#nav li.active a {
-	background-color: blue;
-}
-.navbar a{
-    color: white;
-}
-.nav-link:hover{
-  text-decoration: 2px underline white;
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.teks-biru{
-    color: #072243;
+/* Navbar */
+.navbar {
+  background-color: #072243;
 }
-.bg-biru{
-    background-color: #072243;
-}
-.teks-abu{
-    color: #746A6A;
-}
-.selamat{
-    font-size: 20pt;
-    font-weight: 200;
-}
-.btn-login{
-    background: #072243;
-    color: white;
-    width: 100%;
-}
-.logo-regis{
-    background-color: #F6F7F9;
-    border: 2px solid #072243;
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-}
-.logo-regis i{
-    font-size: 40px;
-    color: #072243;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-.kartu-regis{
-    padding-top: 200px;
-}
-.profil-icon{
-    font-size: 12pt;
-    margin-left: 8px;
-}
-.modal{
-    top:5%;
-    right:0;
-    outline: none;
-    overflow:hidden;
-}
-.footer{
-    width: 100%;
-    height: 100px;
-    background: #072243;
-    color: white;
+.navbar a {
+  color: white;
 }
 
-/* venue, blog */
+.nav-link:hover {
+  text-decoration: 1px underline white;
+}
+
+.teks-biru {
+  color: #072243;
+}
+.bg-biru {
+  background-color: #072243;
+}
+.teks-abu {
+  color: #746a6a;
+}
+.selamat {
+  font-size: 20pt;
+  font-weight: 200;
+}
+.btn-login {
+  background: #072243;
+  color: white;
+  width: 100%;
+}
+.logo-regis {
+  background-color: #f6f7f9;
+  border: 2px solid #072243;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
+.logo-regis i {
+  font-size: 40px;
+  color: #072243;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.kartu-regis {
+  padding-top: 200px;
+}
+.profil-icon {
+  font-size: 12pt;
+  margin-left: 8px;
+}
+.modal {
+  top: 5%;
+  right: 0;
+  outline: none;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #072243;
+  color: white;
+}
+
+/* venue */
 .hero {
-    width: 100%;
-    background-image: url("img/hero.png");
-    background-size: cover;
-    background-position: center;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .search {
-    width: 100%;
-    height: 20vh;
-    justify-content: center;
-    display: flex;
-  }
-  
-  .style-search {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-  
-  .card {
-    background: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-  }
-  
-  .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .pagination .page-item {
-    margin: 0 5px;
-  }
-  
-  .pagination .page-link {
-    border: none;
-    color: #746a6a;
-  }
-  
-  .pagination .page-link:hover {
-    background-color: transparent;
-    border: none;
-    color: #072243;
-  }
+  width: 100%;
+  background-image: url("img/hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  display: flex;
+}
+
+.style-search {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.style-search input {
+  height: 60px;
+}
+
+.style-search button {
+  height: 60px;
+  width: 200px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  border: none;
+  color: #746a6a;
+}
+
+.pagination .page-link:hover {
+  background-color: transparent;
+  border: none;
+  color: #072243;
+}
+
 /* aktivitas */
 
 .hr-lines:after {
@@ -146,39 +157,8 @@ body{
   right: 0;
   left: 30%;
 }
-/* beranda */
-.form-cari-beranda{
-    width: 100%;
-    background-image: url("img/beranda\ 1.png");
-    background-size: cover;
-    background-position: center;
-    min-height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.form-testimoni-beranda{
-    width: 100%;
-    background-image: url("img/beranda\ 3.png");
-    background-size: cover;
-    background-position: center;
-    min-height: 40vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-/* detail venue */
-.btn-det-venue{
-  width: 100%;
-  background-color: #072243;
-  color: white;
-  border-radius: 5px;
-}
-/* mabar */
+
+/* Mabar  Sparring Kompetisi */
 .hero-event {
   width: 100%;
   background-image: url("img/hero.png");
@@ -190,4 +170,31 @@ body{
   justify-content: left;
   align-items: start;
   padding: 5rem;
+}
+
+/* beranda */
+.form-cari-beranda {
+  width: 100%;
+  background-image: url("img/hero-search.png");
+  height: 284px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-testimoni-beranda {
+  width: 100%;
+  background-image: url("img/beranda3.png");
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

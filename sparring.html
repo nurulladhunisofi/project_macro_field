@@ -1,139 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sparring</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Field.com | Event Sparring</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">field.com</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="#">Beranda</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="beranda.html" style="padding-left: 50px"
+          >field.com</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="beranda.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="venue.html"
+                >Venue</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="aktivitas.html"
+                >Aktivitas</a
+              >
+            </li>
+            <li class="nav-item ms-auto my-auto">
+              <a
+                class="nav-link active text-light fw-medium"
+                aria-current="page"
+                href="blog.html"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link ms-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <table class="ms-auto my-auto">
+                  <tr>
+                    <td align="center">
+                      <i class="fa-solid fa-user-large"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center"><small>Mawar</small></td>
+                  </tr>
+                </table>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item text-dark" href="profile.html"
+                    >Profile</a
+                  >
                 </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="#">Venue</a>
+                <li>
+                  <a class="dropdown-item text-dark" href="index.html"
+                    >Logout</a
+                  >
                 </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="#">Aktivitas</a>
-                </li>
-                <li class="nav-item ms-auto my-auto">
-                  <a class="nav-link active text-light fw-medium" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link ms-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <table class="ms-auto my-auto">
-                      <tr>
-                        <td align="center"><i class="fa-solid fa-user-large"></i></td>
-                      </tr>
-                      <tr>
-                        <td align="center"><small>Mawar</small></td>
-                      </tr>
-                    </table>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-light dropdown-menu-end">
-                    <li><a class="dropdown-item text-dark" href="#">Profile</a></li>
-                    <li><a class="dropdown-item text-dark" href="#">Logout</a></li>
-                  </ul>
-                </li>
-            </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="hero-event">
+      <div class="row">
+        <button
+          class="btn btn-rounded col-sm-8"
+          style="background-color: #072243; color: white; margin-left: 1rem"
+        >
+          Sparring Futsal
+        </button>
+        <img src="img/sparring1.png" class="col-sm-3" />
+      </div>
+
+      <h2 class="mt-3 fw-bold">Gracias Futsal Team</h2>
+    </div>
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 mt-5">
+          <h4 class="fw-semibold">Tentang Sparring</h4>
+          <p class="mb-5">
+            Biaya Included Wasit Tengah dan 1 Dooze Air Minum <br />
+            Kemasan Gelas. FG Bisa Dibicarakan. Fun Games,<br />
+            Sportif dan Friendship. Diutamakan yang Bayar DP.
+          </p>
+          <h4 class="fw-semibold">Lokasi</h4>
+          <p class="mb-5">Lapangan Jujur, Kota Medan, Sumatera Utara</p>
+          <h4 class="fw-semibold">Petunjuk Jalan</h4>
+          <img src="img/maps-sparring.png" class="col-sm-10 mb-5" />
+        </div>
+        <div class="col-sm-5 mt-5">
+          <div class="row justify-content-end">
+            <div
+              class="card"
+              style="width: 27rem; height: 33rem; background-color: #314763"
+            >
+              <div class="card-body" style="color: white">
+                <p class="fw-bold mt-5">
+                  RP. 80.000 <span class="fw-light">/Club</span>
+                </p>
+                <p>slot terbatas !</p>
+                <div class="d-grid gap-1 col-5 mx-auto">
+                  <button
+                    class="btn btn-rounded mt-3 mb-3"
+                    style="background-color: white; color: #072243"
+                  >
+                    Ambil Sparring
+                  </button>
+                </div>
+                <p>
+                  <iconify-icon icon="ep:info-filled"></iconify-icon> Event ini
+                  hanya menerima metode
+                  <br />
+                  pembayaran tunai !
+                </p>
+                <hr />
+                <p>
+                  <iconify-icon icon="uil:calender"></iconify-icon> Waktu &
+                  Tanggal<br />
+                  Minggu , 2 Oktober 2023 14:00-16:00
+                </p>
+                <p>
+                  <iconify-icon icon="mdi:location"></iconify-icon> Lapangan
+                  Jujur, Kota Medan, Sumatera Utara
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-    </nav>
-    <div class="card d-flex justify-content-center align-items-center"> 
-        <img src="img/1116002_5676 1.png" class="img-fluid" style="min-height: 10vh;"> 
-        <div class="card-img-overlay col-md-8 m-auto">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <a class="btn btn-secondary bg-biru" href="">
-                                Sparring futsal <i class="fa-regular fa-futbol"></i>
-                            </a>
-                        </div>
-                        <div class="col-6">
-                            <img src="img/sparring1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="teks-biru">Gracias Futsal Team</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="row">
-                    <h4>Tentang sparring</h4>
-                    <p>
-                        Biaya Included Wasit Tengah dan 1 Dooze Air Minum Kemasan Gelas. FG Bisa Dibicarakan. Fun Games, Sportif dan Friendship. Diutamakan yang Bayar DP.
-                    </p>
-                </div>
-                <div class="row">
-                    <h4><i class="fa-solid fa-location-dot"></i> Lokasi</h4>
-                    <p>
-                        Lapangan Jujur, Kota Medan, Sumatera Utara
-                    </p>
-                </div>
-                <div class="row">
-                    <h4>Petunjuk jalan</h4>
-                    <div class="ratio ratio-16x9">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.0967118908784!2d98.64471817442585!3d3.565209250455342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312fc47d9e3ba7%3A0x2b72f1d7ef97f72f!2sTerminal%20Futsal!5e0!3m2!1sid!2sid!4v1697467770072!5m2!1sid!2sid" title="YouTube video" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card w-75 m-auto" style="background-color: #072243;">
-                  <div class="card-body" style="color: white">
-                    <p class="fw-bold mt-5">
-                      RP. 80.000 <span class="fw-light">/Club</span>
-                    </p>
-                    <p>slot terbatas !</p>
-                    <div class="d-grid gap-1 col-7 mx-auto">
-                      <button
-                        class="btn btn-rounded w-100 mt-3 mb-3"
-                        style="background-color: white; color: #072243"
-                      >
-                        Ambil Sparring
-                      </button>
-                    </div>
-                    <p>
-                      <i class="fas fa-star"></i> Event ini hanya menerima metode
-                      <br />
-                      pembayaran tunai !
-                    </p>
-                    <hr />
-                    <p>
-                      <i class="fas fa-heart"></i> Waktu & Tanggal<br />
-                      Minggu , 2 Oktober 2023 14:00-16:00
-                    </p>
-                    <p>
-                      <i class="fas fa-check"></i> Lapangan <br />Lapangan Jujur,
-                      Kota Medan, Sumatera Utara
-                    </p>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="mt-5" style="display: flex; align-items: center">
-          <h4 class="fw-semibold">Rekomendasi Sparring</h4>
-          <hr style="flex: 1; margin-left: 5px" />
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-4 mb-4">
+      </div>
+      <div class="mt-5" style="display: flex; align-items: center">
+        <h4 class="fw-semibold">Rekomendasi Sparring</h4>
+        <hr style="flex: 1; margin-left: 5px" />
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+          <a href="sparring.html" style="text-decoration: none">
             <div class="card">
               <div class="card-body">
                 <div class="row">
@@ -141,56 +186,89 @@
                   <p class="col-sm-9">Futsal<br />Gracias Team</p>
                 </div>
                 <p></p>
-                <p><i class="fas fa-star"></i> 3 Oktober 2023 - 14:00</p>
-                <p><i class="fas fa-heart"></i> Lapangan Jujur, Kota Medan</p>
-                <p><i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 25.000</p>
+                <p>
+                  <iconify-icon icon="uil:calender"></iconify-icon> 3 Oktober
+                  2023 - 14:00
+                </p>
+                <p>
+                  <iconify-icon icon="mdi:location"></iconify-icon> Lapangan
+                  Jujur, Kota Medan
+                </p>
+                <p>
+                  <iconify-icon icon="solar:hand-money-linear"></iconify-icon>
+                  Online Rp.0 | Tunai Rp. 25.000
+                </p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <img src="img/sparring2.png" class="col-sm-3" />
-                  <p class="col-sm-9">Basket<br />Bonjovi Basket Club</p>
-                </div>
-                <p></p>
-                <p><i class="fas fa-star"></i> 10 Oktober 2023 - 10:00</p>
-                <p><i class="fas fa-heart"></i> Gor Superia, Kota Surabaya</p>
-                <p><i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 50.000</p>
+          </a>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <img src="img/sparring2.png" class="col-sm-3" />
+                <p class="col-sm-9">Basket<br />Bonjovi Basket Club</p>
               </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <img src="img/sparring3.png" class="col-sm-3" />
-                  <p class="col-sm-9">Badminton<br />Chill Badminton</p>
-                </div>
-                <p></p>
-                <p><i class="fas fa-star"></i> 11 Oktober 2023 - 15:00</p>
-                <p><i class="fas fa-heart"></i> Gor Serupun, Kota Malang</p>
-                <p><i class="fas fa-check"></i> Online Rp.0 | Tunai Rp. 35.000</p>
-              </div>
+              <p></p>
+              <p>
+                <iconify-icon icon="uil:calender"></iconify-icon> 10 Oktober
+                2023 - 10:00
+              </p>
+              <p>
+                <iconify-icon icon="mdi:location"></iconify-icon> Gor Superia,
+                Kota Surabaya
+              </p>
+              <p>
+                <iconify-icon icon="solar:hand-money-linear"></iconify-icon>
+                Online Rp.0 | Tunai Rp. 50.000
+              </p>
             </div>
           </div>
         </div>
-        <a class="mt-5 mb-4 teks-biru" style="justify-content: center; display: flex"
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <img src="img/sparring3.png" class="col-sm-3" />
+                <p class="col-sm-9">Badminton<br />Chill Badminton</p>
+              </div>
+              <p></p>
+              <p>
+                <iconify-icon icon="uil:calender"></iconify-icon> 11 Oktober
+                2023 - 15:00
+              </p>
+              <p>
+                <iconify-icon icon="mdi:location"></iconify-icon> Gor Serupun,
+                Kota Malang
+              </p>
+              <p>
+                <iconify-icon icon="solar:hand-money-linear"></iconify-icon>
+                Online Rp.0 | Tunai Rp. 35.000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="mt-5 mb-4" style="justify-content: center; display: flex"
         >Tampilkan Lebih banyak <i class="fas fa-arrow-down mt-1"></i
       ></a>
     </div>
-   
-    <!-- footer -->
+    <!-- Footer-->
     <div class="footer">
       <div class="container">
-        <div class="row align-items-center text-light" style="min-height: 100px">
+        <div
+          class="row align-items-center text-light"
+          style="min-height: 100px"
+        >
           <div class="row justify-content-between">
             <div class="col-md-5">
               <table>
                 <tr>
                   <td>
-                    <small class="me-4"><i class="fa-regular fa-copyright"></i>2023 Field All Right Reserved</small>
+                    <i class="fa-regular fa-copyright"></i>
+                  </td>
+                  <td>
+                    <small class="me-4">2023 Field All Right Reserved</small>
                   </td>
                   <td>
                     <small class="me-4">Privacy policy</small>
@@ -199,7 +277,7 @@
                     <small class="me-4">Legal</small>
                   </td>
                 </tr>
-              </table> 
+              </table>
             </div>
             <div class="col-md-4">
               <table class="m-auto">
@@ -220,5 +298,5 @@
       </div>
     </div>
     <script src="bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
